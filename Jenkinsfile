@@ -8,6 +8,7 @@ pipeline {
 
     environment {
         WORKSPACE = "${env.WORKSPACE}"
+        SONAR_TOKEN = "sonarqube-token"
     }
 
     tools {
